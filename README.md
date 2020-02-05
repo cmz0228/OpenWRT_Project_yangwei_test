@@ -1,4 +1,5 @@
 # OpenWrt-AutoBuild
+自己测试玩，没有试过固件
 
 [OpenWrt-Actions-Lean](https://github.com/kang-mk/OpenWrt-Actions-Lean/actions)
 
