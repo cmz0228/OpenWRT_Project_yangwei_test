@@ -162,6 +162,7 @@ CONFIG_PACKAGE_luci-app-unblockmusic=y
 CONFIG_PACKAGE_luci-app-netdata=y
 CONFIG_PACKAGE_luci-app-vssr-coexist=y
 CONFIG_PACKAGE_luci-app-docker=y
+CONFIG_PACKAGE_luci-lib-docker=y
 CONFIG_PACKAGE_luci-app-dockerman=y
 CONFIG_PACKAGE_luci-app-diskman=y
 CONFIG_PACKAGE_luci-app-adguardhome=y
