@@ -138,6 +138,7 @@ EOF
 # 常用LuCI插件选择:
 cat >> .config <<EOF
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
+CONFIG_PACKAGE_luci-app-aria2=y
 CONFIG_PACKAGE_luci-app-acme=y
 CONFIG_PACKAGE_luci-app-transmission=y
 CONFIG_PACKAGE_luci-app-qbittorrent=y
@@ -161,8 +162,12 @@ CONFIG_PACKAGE_luci-app-unblockmusic=y
 CONFIG_PACKAGE_luci-app-netdata=y
 CONFIG_PACKAGE_luci-app-vssr-coexist=y
 CONFIG_PACKAGE_luci-app-docker=y
+CONFIG_PACKAGE_luci-lib-docker=y
 CONFIG_PACKAGE_luci-app-dockerman=y
 CONFIG_PACKAGE_luci-app-diskman=y
+CONFIG_PACKAGE_luci-app-adguardhome=y
+CONFIG_PACKAGE_luci-app-smartdns=y
+CONFIG_PACKAGE_luci-app-aria2=y
 CONFIG_LUCI_LANG_zh-tw=y
 CONFIG_LUCI_LANG_en=y
 EOF
